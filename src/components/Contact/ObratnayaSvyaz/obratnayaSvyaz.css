@@ -1,0 +1,55 @@
+.obratnayasvayz{
+    width: 100%;
+    margin-bottom: 200px;
+}
+
+.obratnaya_input{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.obratnaya_input input{
+    border-radius: 56px;
+    background-color: #f3f9ff;
+    border: none;
+    outline: none;
+    padding: 20px;
+}
+
+.obratnaya_input textarea {
+    border-radius: 17px;
+    background-color: #f3f9ff;
+    padding: 30px;
+    height: 300px;
+    border: none;
+    outline: none;
+}
+
+.obratnaya_input button{
+    font-size: 21px;
+    border-radius: 30px;
+    background-color: #0383ff;
+    border: none;
+    color: #ffffff;
+    padding: 19px 51px;
+    width: 250px;
+    margin: auto;
+    transition: 0.3s ease-in;
+}
+.obratnaya_input button:hover{
+   border: 1px solid #0383ff;
+   color: #0383ff;
+   background-color: transparent;
+}
+
+@media(max-width:500px){
+    .obratnayasvayz{
+        margin-bottom: 100px;
+    }
+
+    .obratnayasvayz h1{
+        font-size: 32px;
+    }
+}

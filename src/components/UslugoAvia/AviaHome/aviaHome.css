@@ -1,0 +1,26 @@
+.aviaHome{
+    width: 100%;
+    background-image: url("../../../image/Rectangle 3 (3).png");
+}
+
+@media(max-width:767px){
+    .aviaHome .home_text{
+        margin-left: -10px;
+    }
+}
+
+@media(max-width:579px){
+    .aviaHome .home_text{
+        margin-left: 0px;
+    }
+}
+@media(max-width:380px){
+    .aviaHome .home_text p{
+      width: 340px!important;
+    }
+}
+@media(max-width:369px){
+    .aviaHome .home_text p{
+      width: 304px!important;
+    }
+}

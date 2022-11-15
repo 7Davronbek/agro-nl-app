@@ -1,0 +1,126 @@
+.aboutmission{
+    width: 100%;
+    margin: auto;
+    margin-bottom: 140px;
+}
+
+.aboutmission h1{
+    font-size: 64px;
+    font-weight: 700;
+    color: #363a4d;
+}
+
+.aboutmission img{
+    width: 100%;
+}
+
+.aboutmission p{
+    font-size: 18px;
+    color: #667582;
+    font-weight: 400;
+    width: 790px;
+}
+
+.aboutmission .text_col p{
+    width: 387px;
+}
+
+@media(max-width: 991px){
+    .aboutmission p{
+        width: 700px;
+    }
+    .aboutmission{
+       
+        margin-bottom: 50px;
+    }
+    
+    .aboutmission img{
+        margin-bottom: 50px;
+    }
+}
+@media(max-width: 767px){
+    .aboutmission p{
+        width: 520px;
+    }
+
+    .aboutmission img{
+        margin-bottom: 50px;
+    }
+}
+@media(max-width: 535px){
+    .aboutmission p{
+        width: 500px;
+    }
+
+    .aboutmission img{
+        margin-bottom: 50px;
+    }
+}
+@media(max-width: 517px){
+    .aboutmission p{
+        width: 450px;
+    }
+
+    .aboutmission img{
+        margin-bottom: 50px;
+    }
+}
+@media(max-width: 500px){
+    .aboutmission p{
+        font-size: 15px;
+    }
+
+    .aboutmission h1{
+        font-size: 36px;
+    }
+}
+@media(max-width: 469px){
+    .aboutmission p{
+        font-size: 15px;
+        width: 400px;
+    }
+
+    .aboutmission h1{
+        font-size: 36px;
+    }
+}
+@media(max-width: 401px){
+    .aboutmission p{
+        font-size: 15px;
+        width: 350px;
+    }
+
+    .aboutmission h1{
+        font-size: 36px;
+    }
+
+    .aboutmission .text_col p{
+        width: 350px;
+    }
+}
+@media(max-width: 367px){
+    .aboutmission p{
+        font-size: 15px;
+        width: 340px;
+    }
+
+    .aboutmission h1{
+        font-size: 36px;
+    }
+    .aboutmission .text_col p{
+        width: 340px;
+    }
+}
+@media(max-width: 360px){
+    .aboutmission p{
+        font-size: 15px;
+        width: 304px;
+    }
+
+    .aboutmission h1{
+        font-size: 36px;
+    }
+    .aboutmission .text_col p{
+        width: 304px;
+    }
+}

@@ -1,0 +1,95 @@
+.morskhome{
+    width: 100%;
+    height: 750px;
+    background-image: url("../../../image/Rectangle 3 (1).png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.morsk_text h1, .morsk_text p{
+    width: 650px;
+}
+
+@media(max-width:976px){
+    .morskhome .morsk_text{
+        margin-left: 0;
+    }
+}
+@media(max-width:767px){
+    .morskhome .morsk_text p{
+        width: 500px;
+        
+    }
+
+    .morskhome .morsk_text{
+        margin-left: -15px;
+    }
+}
+@media(max-width:576px){
+    .morskhome .morsk_text p{
+        width: 500px;
+        
+    }
+
+    .morskhome .morsk_text{
+        margin-left: 0px;
+    }
+}
+@media(max-width:500px){
+    .morskhome .morsk_text p{
+        font-size: 18px;
+    }
+
+    .morskhome .morsk_text h1{
+        font-size: 36px;
+    }
+
+    .morskhome .morsk_text{
+        margin-left: 0px;
+    }
+}
+@media(max-width:424px){
+    .morskhome .morsk_text p{
+        width: 350px !important;
+    }
+
+    .morskhome .morsk_text h1{
+        font-size: 32px;
+        width: 300px;
+    }
+
+    .morskhome .morsk_text{
+        margin-left: 0px;
+    }
+}
+@media(max-width:376px){
+    .morskhome .morsk_text p{
+        width: 320px !important;
+    }
+
+    .morskhome .morsk_text h1{
+        font-size: 32px;
+    }
+
+    .morskhome .morsk_text h1{
+        font-size: 36px;
+    }
+
+    .morskhome .morsk_text{
+        margin-left: 0px;
+    }
+}
+@media(max-width:424px){
+    .morskhome .morsk_text p{
+        width: 350px !important;
+    }
+
+    .morskhome .morsk_text h1{
+        font-size: 36px;
+    }
+
+    .morskhome .morsk_text{
+        margin-left: 0px;
+    }
+}

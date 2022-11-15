@@ -1,0 +1,24 @@
+.sobrhome{
+    width: 100%;
+    height: 750px;
+    background-image: url("../../../image/sobr.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+@media(max-width:767px){
+    .home_text{
+        margin-left: 0px;
+    }
+}
+@media(max-width:414px){
+    .home_text p{
+        width: 370px !important;
+    }
+}
+@media(max-width:360px){
+    .home_text p{
+        width: 320px !important;
+    }
+}

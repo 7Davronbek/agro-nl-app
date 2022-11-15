@@ -1,0 +1,60 @@
+.uslugHome{
+    width: 100%;
+    background-image: url("../../../image/Rectangle 18.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 50px 0 50px 0;
+    margin-bottom: 0px;
+}
+
+.uslug_text{
+    text-align: center;
+    color: #ffffff;
+    margin-bottom: 73px;
+}
+
+.card_uslugi{
+    text-align: center;
+    color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+}
+
+.overline{
+    width: 93px;
+    height: 93px;
+    border-radius: 50%;
+    background-color: #0383ff;
+    padding: 25px;
+}
+
+.overline img{
+    width: 100%;
+}
+
+.overline_line{
+    width: 113px;
+    height: 113px;
+    border: 1px solid #ffffff;
+    border-radius: 50%;
+    padding: 9px;
+}
+
+@media(max-width:767px){
+    .uslugHome{
+        margin-bottom: 30px;
+    }
+}
+@media(max-width:662px){
+    .uslugHome{
+        margin-bottom: 10px;
+    }
+}
+@media(max-width:417px){
+    .uslugHome{
+        margin-bottom: 0px;
+    }
+}

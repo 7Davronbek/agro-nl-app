@@ -1,0 +1,153 @@
+.jduslug{
+    width: 100%;
+    margin-top: 120px;
+}
+
+.jduslug h1{
+    font-size: 64px;
+    font-weight: 700;
+    color: #363a4d;
+    margin-left: 105px;
+}
+
+.jduslug p{
+    font-size: 18px;
+    color: #667582;
+    font-weight: 400;
+}
+
+.jduslug .left_jd_uslug{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+    margin-bottom: 200px;
+}
+
+.jduslug .left_jd_uslug span{
+    font-size: 36px;
+    font-weight: 600;
+    color: #363a4d;
+    line-height: 43px;
+    border-bottom: 1px solid #363a4d;
+    padding-bottom: 10px;
+}
+
+.jduslug .left_jd_uslug a{
+    font-size: 21px;
+    color: #083fff;
+    font-weight: 400;
+    text-decoration: none;
+}
+
+.mporter{
+    width: 100%;
+    
+}
+
+.mporter h1{
+    font-size: 64px;
+    font-weight: 700;
+    color: #363a4d;
+}
+
+.mporter p{
+    font-size: 18px;
+    color: #667582;
+    font-weight: 400;
+    margin-top: 20px;
+}
+
+.mporter img{
+    margin-top: 20px;
+    width: 100%;
+}
+
+
+.jdother{
+    margin-top: 120px;
+    margin-bottom: 180px;
+}
+
+.other_h1 {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.carslt_txet h1{
+    font-size: 43px;
+}
+
+@media(max-width: 767px){
+    .jduslug h1{
+        text-align: center;
+        margin-left: 0;
+    }
+}
+@media(max-width: 500px){
+    .jduslug .left_jd_uslug{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 10px;
+        margin-bottom: 100px;
+    }
+    .jduslug{
+        width: 100%;
+        margin-top: 50px;
+    }
+    .jduslug h1{
+        text-align: center;
+        margin-left: 0;
+        font-size: 36px;
+    }
+    .jduslug p{
+        font-size: 18px;
+    }
+
+    .jduslug .left_jd_uslug span{
+        font-size: 24px;
+    }
+    .jdother h1{
+        font-size: 36px;
+    }
+
+    .jdother p{
+        font-size: 18px;
+    }
+    .mporter h1{
+        font-size: 36px;
+    }
+
+    .mporter p{
+        font-size: 18px;
+    }
+}
+@media(max-width: 360px){
+    .jduslug h1{
+        text-align: center;
+        margin-left: 0;
+        font-size: 32px;
+    }
+    .jduslug p{
+        font-size: 15px;
+    }
+
+    .jduslug .left_jd_uslug span{
+        font-size: 24px;
+    }
+    .jdother h1{
+        font-size: 32px;
+    }
+
+    .jdother p{
+        font-size: 15px;
+    }
+    .mporter h1{
+        font-size: 32px;
+    }
+
+    .mporter p{
+        font-size: 15px;
+    }
+}

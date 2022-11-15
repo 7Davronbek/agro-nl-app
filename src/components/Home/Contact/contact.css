@@ -1,0 +1,119 @@
+.contact{
+    width: 100%;
+    margin-top: 225px;
+    margin-bottom: 150px;
+}
+
+.contact_h1{
+    font-size: 64px;
+    color: #363a4d;
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+
+.contact h3{
+    font-size: 24px;
+    font-family: 700;
+    color: #363a4d;
+}
+
+.contact a{
+    color: #667582;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.contact .pochta_contact{
+    margin-top: 60px;
+}
+
+.contact button{
+    border-radius: 30px;
+    padding: 15px 35.5px;
+    font-size: 15px;
+    font-weight: 600;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+    border:1px solid #0383FF;
+    color: #0383FF;
+    margin-top: 60px;
+    transition: 0.3s ease-in;
+}
+.contact button:hover{
+    background-color: #0383FF;
+    color: #ffffff;
+}
+
+.left_conatc{
+    padding: 17px 17px 40px 17px;
+}
+
+.contact_contain{
+    border-radius: 17px;
+    -webkit-box-shadow: 0px 5px 10px 2px rgba(34, 60, 80, 0.2);
+    -moz-box-shadow: 0px 5px 10px 2px rgba(34, 60, 80, 0.2);
+    box-shadow: 0px 5px 10px 2px rgba(34, 60, 80, 0.2);
+}
+
+.ifram_map{
+    width: 100%;
+    height: 100%;
+    border-radius: 17px;
+}
+
+@media(max-width:1399px){
+    .contact button{
+        border-radius: 30px;
+        padding: 12px 30px;
+        font-size: 13px;
+        font-weight: 600;
+        border: none;
+        background-color: transparent;
+        cursor: pointer;
+        border:1px solid #0383FF;
+        color: #0383FF;
+        margin-top: 60px;
+        transition: 0.3s ease-in;
+    }
+    .contact_h1{
+        font-size: 48px;
+    }
+}
+
+@media(max-width:1199px){
+    .contact button{
+        padding: 12px 25px;
+    }
+    .contact_h1{
+        font-size: 48px;
+    }
+
+    .contact h3{
+        font-size: 21px;
+    }
+    .contact a{
+        font-size: 15px;
+    }
+}
+
+@media(max-width:991px){
+    .left_conatc{
+        padding: 17px 17px 15px 17px;
+    }
+    .contact_h1{
+        margin-bottom: 10px;
+    }
+    .contact button{
+        margin-top: 10px;
+    }
+    .contact .pochta_contact{
+        margin-top: 10px;
+    }
+}
+
+@media(max-width:500px){
+    .contact_h1{
+        font-size: 36px;
+    }
+}

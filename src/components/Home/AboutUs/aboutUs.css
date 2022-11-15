@@ -1,0 +1,52 @@
+.aboutUs{
+    width: 100%;
+    margin-bottom: 121px;
+}
+
+.about_h1{
+    font-size: 64px;
+    font-weight: 700;
+    line-height: 77px;
+    color: #363a4d;
+}
+
+.text_about{
+    padding-top: 82px;
+}
+
+.text_about h1{
+    font-size: 21px;
+    font-weight: 700;
+    line-height: 25px;
+}
+
+.text_about p{
+    font-size: 18px;
+    color: #667582;
+}
+
+@media(max-width:992px){
+    .aboutUs .about_h1{
+        font-size: 48px;
+    }
+    .aboutUs{
+        
+        margin-bottom: 100px;
+    }
+}
+
+@media(max-width:400px){
+        .aboutUs .about_h1{
+            font-size: 36px;
+        }
+
+        .text_about h1{
+            font-size: 18px;
+        }
+        .text_about p{
+            font-size: 13px;
+        }
+        .aboutUs{
+            margin-bottom: 50px;
+        }
+}

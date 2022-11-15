@@ -1,0 +1,32 @@
+.aboutPartners{
+    width: 100%;
+    padding-bottom: 129px;
+}
+
+.aboutPartners img{
+    width: 100%;
+}
+
+.aboutPartners p{
+    font-size: 18px;
+    font-weight: 400;
+    color: #667582;
+    line-height: 25.2px;
+}
+
+@media(max-width:500px){
+    .aboutPartners h1{
+font-size: 36px;
+    }
+    .aboutPartners p{
+        font-size: 15px;
+        font-weight: 400;
+        color: #667582;
+        line-height: 25.2px;
+    }
+    .aboutPartners{
+        width: 100%;
+        padding-bottom: 50px;
+    }
+    
+}

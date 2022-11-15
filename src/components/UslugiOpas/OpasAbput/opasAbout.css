@@ -1,0 +1,76 @@
+.opasabout{
+    width: 100%;
+    margin-top: 120px;
+    
+}
+
+.opasabout h4{
+    font-size: 24px;
+    font-weight: 500;
+    color: #363a4d;
+    line-height: 25px;
+    padding-top: 10px;
+    padding-bottom: 30px;
+    
+}
+
+.opasabout ul {
+    display: flex;
+    flex-direction: column;
+    padding-top: 10px;
+    padding-bottom: 30px;
+}
+
+.opasabout h5{
+    font-size: 24px;
+    color: #363a4d;
+    font-weight: 500;
+    margin-left: 15px;
+}
+
+.opasabout p{
+    font-size: 18px;
+    color: #667582;
+    font-weight: 400;
+    padding-top: 10px;
+    padding-bottom: 30px;
+}
+
+.opasabout ul li{
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 25px;
+    color: #0383ff;
+}
+
+.opasabout ul li p{
+    color: #667582;
+}
+
+
+.otehr{
+    margin-bottom: 180px;
+}
+
+.opas_other{
+    font-size: 64px;
+    font-weight: 700;
+    color: #363a4d;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+
+.carslt_txet h1{
+    font-size: 43px;
+}
+
+.opas_or{
+    margin-top: 50px;
+}
+
+@media(max-width:419px){
+    .vestext{
+        width: 300px;
+    }
+}

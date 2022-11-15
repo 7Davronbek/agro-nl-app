@@ -1,0 +1,148 @@
+.typesoflog{
+    width: 100%;
+    padding-top: 50px;
+    margin-bottom: 150px;
+}
+
+.type_header{
+    margin: 50px auto;
+    text-align: center;
+    font-weight: 700;
+    font-size: 64px;
+    color: #363a4d;
+}
+
+.cards{
+    margin-bottom: 20px;
+    background-color: rgb(244, 249, 254);
+    position: relative;
+    padding: 30px 0px 30px 11px;
+    overflow: hidden;
+}
+
+.cards h1{
+    font-size: 30px;
+    font-weight: 600;
+    line-height: 36px;
+    color: #363a4d;
+    
+}
+
+.cards p{
+    font-size: 16px;
+    font-weight: 400;
+    color: #667582;
+    width: 300px;
+    position: relative;
+    z-index: 1;
+    margin-bottom: 76px;
+}
+
+.cards button{
+    border-radius: 30px;
+    padding: 19px 40.5px;
+    font-size: 15px;
+    font-weight: 600;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+    border:1px solid #0383FF;
+    color: #0383FF;
+    transition: 0.3s ease-in;
+    position: relative;
+    z-index: 22;
+}
+.cards button:hover{
+    background-color: #0383FF;
+    cursor: pointer;
+    color: #ffffff;
+}
+
+.cards img{
+    position: absolute;
+    width: 530px;
+    right: 0;
+    bottom: 0;
+    z-index: 0;
+}
+
+@media(max-width: 663px){
+    .type_header {
+        font-size: 48px;
+    }
+    .typesoflog{
+    width: 100%;
+    padding-top: 50px;
+    margin-bottom: 100px;
+}
+}
+
+@media(max-width: 536px){
+    .cards img{
+        width: 480px;
+    }
+    .typesoflog{
+        margin-bottom: 100px;
+    }
+    
+}
+@media(max-width: 499px){
+    .cards img{
+        width: 450px;
+    }
+}
+@media(max-width: 468px){
+    .cards img{
+        width: 410px;
+    }
+}
+@media(max-width: 430px){
+    .cards img{
+        width: 390px;
+    }
+}
+@media(max-width: 423px){
+    .cards img{
+        width: 350px;
+    }
+    .cards button{
+        padding: 14px 40.5px;
+        font-size: 13px;
+    }
+    .cards p{
+        font-size: 14px;
+        width: 250px;
+    }
+}
+
+@media(max-width: 383px){
+    .cards img{
+        width: 340px;
+    }
+    .cards button{
+        padding: 14px 30px;
+        font-size: 13px;
+    }
+}
+@media(max-width: 364px){
+    .cards img{
+        width: 340px;
+    }
+    .typesoflog{
+        margin-bottom: 70px;
+    }
+    .type_header {
+        font-size: 32px;
+    }
+    .cards button{
+        padding: 12px 20px;
+        font-size: 13px;
+    }
+
+    .cards h1{
+        font-size: 18px;
+    }
+    .cards p{
+        font-size: 11px;
+    }
+}

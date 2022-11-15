@@ -1,0 +1,85 @@
+.otsleditdostavku{
+    width: 100%;
+    margin-top: 150px;
+    margin-bottom: 450px;
+}
+
+.otsleditdostavku h1{
+    font-size: 64px;
+    font-weight: 700;
+    color: #363a4d;
+    text-align: center;
+}
+
+.otsleditdostavku input{
+    background-color: #f3f9ff;
+    width: 100%;
+    border-radius: 56px;
+    outline: none;
+    border: none;
+    padding: 20px;
+    margin-top: 50px;
+}
+
+.otsleditdostavku button{
+    padding: 19px 71px;
+    color: #ffffff;
+    background-color: #0383ff;
+    border: none;
+    border-radius: 30px;
+    margin: auto;
+    font-size: 18px;
+    font-weight: 500;
+    margin-top: 50px;
+}
+
+.otsleditdostavku button:hover{
+    color: #0383ff;
+    background-color: transparent;
+    border: 1px solid #0383ff;
+}
+
+.otsledit_dotavku_text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+@media(max-width:991px){
+    .otsleditdostavku{
+        width: 100%;
+        margin-top: 50px;
+        margin-bottom: 300px;
+    }
+
+    .otsledit_dotavku_text h1{
+        margin-top: 100px;
+    }
+}
+@media(max-width:500px){
+.otsleditdostavku h1{
+    font-size: 36px;
+    font-weight: 700;
+    color: #363a4d;
+    text-align: center;
+}
+.otsleditdostavku button{
+    padding: 15px 60px;
+    color: #ffffff;
+    background-color: #0383ff;
+    border: none;
+    border-radius: 30px;
+    margin: auto;
+    font-size: 15px;
+    font-weight: 500;
+    margin-top: 50px;
+}
+}
+@media(max-width:360px){
+.otsleditdostavku h1{
+    font-size: 32px;
+    font-weight: 700;
+    color: #363a4d;
+    text-align: center;
+}
+}

@@ -1,0 +1,172 @@
+.napavleniyamork{
+    width: 100%;
+    margin-top: 120px;
+}
+
+.napavleniyamork h1{
+    font-size: 64px;
+    font-weight: 700;
+    color: #363a4d;
+}
+
+.napavleniyamork p{
+    font-size: 18px;
+    font-weight: 400;
+    color: #667582;
+}
+
+.napavleniyamork h2{
+    width: 600px;
+    margin-left: 630px;
+    font-size: 36px;
+    color: #363a4d;
+    font-weight: 400;
+}
+
+.map_mors{
+    width: 100%;
+    height: 100%;
+   
+}
+
+.map_mors img{
+    width: 100%;
+}
+
+.buduci{
+    width: 730px;
+    color: #363a4d !important;
+    margin-bottom: 200px;
+}
+
+.otehr{
+    margin-bottom: 180px;
+}
+
+.other_h1 {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.carslt_txet h1{
+    font-size: 43px;
+}
+
+@media(max-width:1278px){
+    .napavleniyamork h2{
+        width: 600px;
+        margin: auto;
+        font-size: 36px;
+        color: #363a4d;
+        font-weight: 400;
+    }
+    .napavleniyamork{
+        width: 100%;
+        margin-top: 50px;
+    }
+}
+@media(max-width:500px){
+    .napavleniyamork {
+        
+        margin-top: 50px;
+    }
+
+    .napavleniyamork h1{
+        font-size: 36px;
+    }
+
+    .napavleniyamork p{
+        font-size: 18px;
+    }
+    .buduci{
+        width: 730px;
+        color: #363a4d !important;
+        margin-bottom: 50px;
+    }
+}
+@media(max-width:552px){
+    .napavleniyamork h2 {
+        width: 440px;
+        font-size: 24px;
+    }
+
+    .napavleniyamork h1{
+        font-size: 36px;
+    }
+
+    .napavleniyamork p{
+        font-size: 18px;
+    }
+}
+@media(max-width:381px){
+    .napavleniyamork h2 {
+        width: 360px;
+        font-size: 24px;
+    }
+
+    .napavleniyamork h1{
+        font-size: 36px;
+    }
+
+    .napavleniyamork p{
+        font-size: 18px;
+    }
+}
+
+@media(max-width:767px){
+    .buduci{
+        width: 600px;
+    }
+}
+@media(max-width:701px){
+    .buduci{
+        width: 500px;
+    }
+}
+@media(max-width:509px){
+    .buduci{
+        font-size: 16px;
+        width: 450px;
+    }
+    .otehr .other_h1{
+        font-size: 32px;
+    }
+
+    .otehr p{
+        font-size: 18px;
+    }
+}
+@media(max-width:476px){
+    .buduci{
+        font-size: 16px;
+        width: 420px;
+    }
+}
+@media(max-width:436px){
+    .buduci{
+        text-align: center;
+        font-size: 16px;
+        width: 400px;
+    }
+}
+@media(max-width:424px){
+    .buduci{
+        text-align: left;
+        font-size: 16px;
+        width: 370px;
+    }
+}
+@media(max-width:382px){
+    .buduci{
+        text-align: left;
+        font-size: 16px;
+        width: 350px;
+    }
+}
+@media(max-width:358px){
+    .buduci{
+        text-align: left;
+        font-size: 16px;
+        width: 320px;
+    }
+}

@@ -1,0 +1,38 @@
+.jdhoe{
+    width: 100%;
+    background-image: url("../../../image/Rectangle 3 (2).png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.jd_text p{
+    width: 600px;
+}
+
+@media(max-width: 767px){
+    .jdhoe .jd_text{
+        margin-left: 0px;
+    }
+}
+@media(max-width: 714px){
+     .jd_text p{
+     width: 430px !important;   
+    }
+}
+@media(max-width: 565px){
+     .jd_text p{
+     line-height: 25px;  
+    }
+}
+@media(max-width: 446px){
+     .jd_text p{
+     width: 350px !important; 
+    }
+}
+@media(max-width: 362px){
+     .jd_text p{
+     width: 304px !important;
+     line-height: 20px; 
+    }
+}

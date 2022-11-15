@@ -1,0 +1,68 @@
+.opashome {width: 100%;
+height: 750px;
+background-image: url("../../../image/Rectangle 44.png");
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+}
+
+.opashome img{
+    width: 100%;
+    margin-top: 50px;
+    margin-left: 50px;
+}
+
+.flex_opas{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+@media(max-width:1400px){
+    .opashome img{
+        width: 100%;
+        margin-top: 50px;
+        margin-left: -30px;
+    }
+    
+}
+@media(max-width:1268px){
+    .opashome img{
+        width: 100%;
+        margin-top: 50px;
+        margin-left: -50px;
+    }
+    
+}
+@media(max-width:1231px){
+    .opashome img{
+        width: 100%;
+        margin-top: 50px;
+        margin-left: -100px;
+    }
+    
+}
+@media(max-width:1199px){
+    .opashome img{
+        width: 100%;
+        position: relative;
+        z-index: 0;
+        left: -50px;
+    }
+
+    .opashome .home_text p{
+        position: relative;
+        z-index: 2;
+    }
+    
+}
+@media(max-width:732px){
+    .opashome img{
+       display: none;
+    }
+}
+@media(max-width:428px){
+    .opashome .home_text p{
+        width: 300px !important;
+    }
+}

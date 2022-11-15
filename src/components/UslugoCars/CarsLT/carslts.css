@@ -1,0 +1,125 @@
+.preimushestvo h1{
+    margin-top: 200px;
+    /* margin-bottom: 120px; */
+}
+
+.preimushestvo{
+    margin-bottom: 120px;
+}
+
+.carslt{
+    width: 100%;
+    margin-top: 50px;
+}
+
+.carslt img{
+    width: 100%;
+}
+
+
+.carslt h1{
+    font-size: 64px;
+    font-weight: 700;
+    color: #363a4d;
+}
+
+.carslt p{
+    font-size: 18px;
+    color: #667582;
+    font-weight: 400;
+}
+
+.carslt .ltz{
+    margin-top: 30px;
+}
+
+.ul_table ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: -15px;
+    
+}
+
+.ul_table ul li{
+    /* width: 440px; */
+    font-size: 18px;
+    font-weight: 400;
+    color: #0382ff;
+}
+
+.ul_table ul li:nth-child(2){
+    width: 340px;
+    font-size: 18px;
+    font-weight: 400;
+    color: #0382ff;
+}
+
+.frst_li{
+    margin-left: 30px;
+}
+
+.otehr{
+    margin-bottom: 180px;
+}
+
+.other_h1 {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.carslt_txet h1{
+    font-size: 43px;
+}
+
+@media(max-width:991px){
+    .preimushestvo h1{
+        margin-top: 100px;
+        /* margin-bottom: 120px; */
+    }
+}
+
+@media(max-width: 500px){
+    .carslt h1{
+        font-size: 36px;
+    }
+
+    .carslt p{
+        font-size: 16px;
+    }
+    .otehr .carslt_txet h1{
+        font-size: 32px;
+    }
+}
+
+@media(max-width:360px){
+    .preimushestvo h1{
+        margin-top: 50px;
+        /* margin-bottom: 120px; */
+    }
+    .carslt_txet button{
+        padding: 15px 30px;
+        font-size: 13px;
+        position: relative;
+        top: 15px;
+    }
+}
+@media(max-width:492px){
+    .carslt_txet button{
+        padding: 15px 30px;
+    }
+    .otehr{
+        margin-bottom: 0px;
+    }
+}
+@media(max-width:448px){
+    .carslt_txet button{
+        padding: 13px 25px;
+    }
+    .preimushestvo h1{
+        margin-top: 50px;
+        /* margin-bottom: 120px; */
+    }
+   
+    
+}

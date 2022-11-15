@@ -1,0 +1,163 @@
+.sobrtext{
+    width: 100%;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.sobrtext h1{
+    font-size: 64px;
+    color: #363a4d;
+    font-weight: 700;
+}
+
+.sobrtext p{
+    font-size: 18px;
+    color: #667582;
+    line-height: 25px;
+    font-weight: 400;
+}
+
+.sobrtext img{
+    width: 100%;
+}
+
+.typesobr{
+    margin-top: 100px;
+    width: 100%;
+    margin-bottom: 50px;
+}
+
+.typesobr h1{
+    font-size: 64px;
+    color: #363a4d;
+    font-weight: 700;
+}
+
+.typesobr p{
+    font-size: 18px;
+    color: #667582;
+    font-weight: 400;
+    width: 700px;
+}
+
+.typesobr img{
+    margin-left: 300px;
+}
+
+.vozmojnosti{
+    width: 100%;
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+
+.vozmojnosti h1{
+    font-size: 64px;
+    font-weight: 700;
+    color: #363a4d;
+}
+
+.vozmojnosti ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+
+.vozmojnosti .liststyle{
+    margin-top: 30px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.liststyle ul li:nth-child(2){
+    width: 300px;
+    font-size: 18px;
+    font-weight: 400;
+    color: #0382ff;
+    margin-left: 10px;
+}
+.liststyle ul li{
+    width: 300px;
+    font-size: 18px;
+    font-weight: 400;
+    color: #0382ff;
+}
+
+.vozmojnosti ul li{
+    font-size: 16px;
+    color: #0383ff;
+    font-weight: 400;
+}
+
+.vozmojnosti ul li p{
+    color: #363a4d;
+}
+
+.vozmojnosti img{
+    width: 100%;
+    margin-top: 30px;
+}
+
+.other_h1{
+    font-size: 64px;
+    color: #363a4d;
+    font-weight: 700;
+    margin-top: 50px;
+}
+
+@media(max-width:500px){
+
+.sobrtext h1, .typesobr h1, .vozmojnosti h1{
+    font-size: 36px;
+    color: #363a4d;
+    font-weight: 700;
+}
+.sobrtext p, .typesobr p, .vozmojnosti p{
+    font-size: 16px;
+}
+}
+@media(max-width:360px){
+
+.sobrtext h1 , .typesobr h1, .vozmojnosti h1{
+    font-size: 32px;
+    color: #363a4d;
+    font-weight: 700;
+}
+.sobrtext p, .typesobr p, .vozmojnosti p{
+    font-size: 14px;
+}
+}
+
+@media(max-width: 1295px){
+    .typesobr img{
+        margin-left: 0;
+        width: 100%;
+    }
+}
+@media(max-width: 767px){
+    .typesobr p{
+        font-size: 18px;
+        color: #667582;
+        font-weight: 400;
+        width: auto;
+    }
+}
+
+@media(max-width:767px){
+    .vozmojnosti ul{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .liststyle ul li:nth-child(2){
+        width: 300px;
+        font-size: 18px;
+        font-weight: 400;
+        color: #0382ff;
+        margin-left: 0px;
+    }
+}
+

@@ -1,0 +1,29 @@
+.socialNavbar{
+    background-color: #363A4D;
+    height: 60px;
+    display: flex   ;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav_phone{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.nav_phone a{
+    color: #ffffff;
+    text-decoration: none;
+    margin-left: 6px;
+}
+
+.soc_a{
+    margin-left: 13px;
+}
+
+@media(max-width:992px){
+    .socialNavbar {
+        display: none;
+    }
+}
