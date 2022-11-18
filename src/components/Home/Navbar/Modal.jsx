@@ -20,6 +20,11 @@ const Modal = ({hideModalHandler}) => {
     await axios.post(API_PATH + '/contact/', {there, where, kg, phone, message})
       .then((res) => {
         console.log(res);
+        setThere('')
+        setWhere('')
+        setKg('')
+        setPhone('')
+        setMessage('')
       })
       .catch((err) => {
         console.log(err);

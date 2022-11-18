@@ -51,6 +51,7 @@
     position: fixed;
     transition: 0.4s ease-in;
     z-index: 99999;
+    overflow: hidden;
 }
 
 .Navbar.active{
